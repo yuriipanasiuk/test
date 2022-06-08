@@ -12,7 +12,8 @@
         "../sass/components/_header.scss",
         "../sass/components/_nav.scss",
         "../sass/components/_menu.scss",
-        "../sass/components/_hero.scss"
+        "../sass/components/_hero.scss",
+        "../sass/utils/_mixin.scss"
     ],
     "names": [],
     "file": "main.css"
