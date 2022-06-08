@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/main.min.css" />
+  </head>
+  <body>
+    <header class="hero-header">
+      <div class="container hero-header-raletiv">
+        <div class="circle-header"></div>
+        <div class="ice-cream">
+          <picture>
+            <source
+              srcset="
+                ./img/ice-cream-desctop.png   1x,
+                /img/ice-cream-desctop@2x.png 2x
+              "
+              media="(min-width:1280px)"
+            />
+            <source
+              srcset="
+                ./img/ice-cream-tablet.png   1x,
+                /img/ice-cream-tablet@2x.png 2x
+              "
+              media="(min-width:768px)"
+            />
+            <source
+              srcset="
+                ./img/ice-cream-mobile.png   1x,
+                /img/ice-cream-mobile@2x.png 2x
+              "
+              media="(min-width:320px)"
+            />
+
+            <img src="./img/ice-cream-desctop@2x.png" alt="ice-crem" />
+          </picture>
+        </div>
+        <div class="ice-tasty">
+          <picture>
+            <source
+              srcset="
+                ./img/ice-tasty-desctop.png   1x,
+                /img/ice-tasty-desctop@2x.png 2x
+              "
+              media="(min-width:1280px)"
+            />
+            <source
+              srcset="
+                ./img/ice-tasty-tablet.png   1x,
+                /img/ice-tasty-tablet@2x.png 2x
+              "
+              media="(min-width:768px)"
+            />
+
+            <img src="./img/ice-tasty-desctop@2x.png" alt="ice-crem" />
+          </picture>
+        </div>
+        <div class="milk-slider">
+          <picture>
+            <source
+              srcset="
+                ./img/milk-slide-desctop.png   1x,
+                /img/milk-slide-desctop@2x.png 2x
+              "
+              media="(min-width:1280px)"
+            />
+            <source
+              srcset="
+                ./img/milk-slide-tablet.png   1x,
+                /img/milk-slide-tablet@2x.png 2x
+              "
+              media="(min-width:768px)"
+            />
+
+            <img src="./img/milk-slide-desctop@2x.png" alt="milk-slide" />
+          </picture>
+          <div class="milk-slider__text-wraper">
+            <p class="milk-slider__text-text">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et
+            </p>
+
+            <picture>
+              <source
+                srcset="
+                  ./img/arrow-right-desctop.png   1x,
+                  /img/arrow-right-desctop@2x.png 2x
+                "
+                media="(min-width:1280px)"
+              />
+              <source
+                srcset="
+                  ./img/arrow-right-tablet.png   1x,
+                  /img/arrow-right-tablet@2x.png 2x
+                "
+                media="(min-width:768px)"
+              />
+
+              <img src="./img/arrow-right-desctop@2x.png" alt="milk-slide" />
+            </picture>
+          </div>
+        </div>
+        <nav class="nav">
+          <a class="logo" href="./index.html">
+            <picture>
+              <source
+                srcset="./img/logo1x.png 1x, ./img/logo@2x.png 2x"
+                media="(min-width: 320px)"
+              />
+              <img src="./img/logo@2x.png" alt="logo" />
+            </picture>
+          </a>
+         <div class="nav-wraper">
+            <ul class="nav__list list">
+              <li class="nav__item">
+                <a class="nav__link" href="">Home</a>
+              </li>
+              <li class="nav__item">
+                <a class="nav__link" href="">About us</a>
+              </li>
+         
+              <li class="nav__item">
+                <a class="nav__link" href="">How it’s made?</a>
+              </li class="nav__item">
+              <li class="nav__item">
+                <a class="nav__link" href="">Our products</a>
+              </li>
+              <li class="nav__item">
+                <a class="nav__link" href="">Contact</a>
+              </li>
+            </ul>
+         </div>
+         
+
+          <div class="menu">
+            <button data-menu-open type="button" class="menu-open">
+              <svg width="20" height="12">
+                <use class="" href="./img/icons.svg#icon-Burger"></use>
+              </svg>
+            </button>
+            <button type="button" class="menu__btn-buynow">Buy now</button>
+            <div class="menu__container" data-menu>
+              <button data-menu-close type="button" class="menu-close">
+                <svg width="14px" height="14px">
+                  <use href="./img/icons.svg#icon-close"></use>
+                </svg>
+              </button>
+              <button type="button" class="menu__btn-buynow btn">
+                Buy now
+              </button>
+              <div class="menu-nav">
+                <ul class="menu-nav__list list">
+                  <li class="menu-nav__item">
+                    <a class="menu-nav__link" href="">Home</a>
+                  </li>
+                  <li class="menu-nav__item">
+                    <a class="menu-nav__link" href="">About us</a>
+                  </li>
+                  <li class="menu-nav__item">
+                    <a class="menu-nav__link" href="">How it’s made?</a>
+                  </li>
+                  <li class="menu-nav__item">
+                    <a class="menu-nav__link" href="">Our products</a>
+                  </li>
+                  <li class="menu-nav__item">
+                    <a class="menu-nav__link" href="">Contact</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </nav>
+
+        <section class="hero">
+          <div class="hero__thumb">
+            <h1 class="hero__title">
+              ice cream made with
+              <span class="hero__title-second"> passion</span>
+            </h1>
+            <ul class="hero__button-list list">
+              <li class="hero__button-item">
+                <a href="" class="hero__button-link hero__button-link--accent"
+                  >Products</a
+                >
+              </li>
+              <li class="hero__button-item">
+                <a href="" class="hero__button-link">How it’s made?</a>
+              </li>
+            </ul>
+          </div>
+        </section>
+      </div>
+    </header>
+
+    <script src="./js/menu.js"></script>
+  </body>
+</html>

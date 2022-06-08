@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,YAAY,AAAC,CACX,WAAW,CAAE,GAAG,CAChB,gBAAgB,CAAE,OAAO,CAS1B,AAPC,MAAM,CAAC,MAAM,MAAM,SAAS,EAAE,KAAK,EAJrC,AAAA,YAAY,AAAC,CAKT,WAAW,CAAE,IAAI,CAMpB,CAHC,MAAM,CAAC,MAAM,MAAM,SAAS,EAAE,MAAM,EARtC,AAAA,YAAY,AAAC,CAST,WAAW,CAAE,IAAI,CAEpB",
+    "sources": [
+        "../sass/components/-page-header.scss"
+    ],
+    "names": [],
+    "file": "-page-header.min.css"
+}
